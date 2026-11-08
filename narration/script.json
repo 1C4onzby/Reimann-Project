@@ -1,0 +1,214 @@
+[
+ {
+  "scene": "title",
+  "text": "In eighteen fifty-nine, Bernhard Riemann wrote a short paper about counting prime numbers."
+ },
+ {
+  "scene": "title",
+  "text": "In it, he made a guess that is still unproven. Today, we are going to hear it."
+ },
+ {
+  "scene": "primes",
+  "text": "Prime numbers are the whole numbers greater than one whose only divisors are one and themselves."
+ },
+ {
+  "scene": "primes",
+  "text": "Count them, and you get a staircase called pi of x, which climbs one step at every prime."
+ },
+ {
+  "scene": "primes",
+  "text": "The steps arrive irregularly. Yet from far away, the staircase looks smooth, and Gauss guessed that it follows x over the natural log of x."
+ },
+ {
+  "scene": "primes",
+  "text": "A sharper guess is an integral. Near a number t, roughly one number in every natural log of t is prime. So we accumulate that density, and integrate one over the natural log of t, from two up to x."
+ },
+ {
+  "scene": "primes",
+  "text": "Below one million, there are seventy-eight thousand, four hundred ninety-eight primes. The first guess misses by about six thousand. The integral misses by only about one hundred thirty."
+ },
+ {
+  "scene": "primes",
+  "text": "The Riemann Hypothesis is a precise statement about how small that miss must always be."
+ },
+ {
+  "scene": "series",
+  "text": "Riemann's tool is an infinite series, the kind you study in Unit Ten of Calculus BC."
+ },
+ {
+  "scene": "series",
+  "text": "The zeta function adds one over n to the power s, for every positive whole number n."
+ },
+ {
+  "scene": "series",
+  "text": "By the p-series test, it converges when s is greater than one."
+ },
+ {
+  "scene": "series",
+  "text": "At s equals two, the partial sums settle on pi squared over six."
+ },
+ {
+  "scene": "series",
+  "text": "At s equals one, it becomes the harmonic series. It never settles. It grows like the natural log of n, slowly, and forever."
+ },
+ {
+  "scene": "series",
+  "text": "The integral test explains both cases, by comparing the sum with the improper integral of one over x to the s."
+ },
+ {
+  "scene": "euler",
+  "text": "Euler found where the primes hide inside this series."
+ },
+ {
+  "scene": "euler",
+  "text": "For each prime p, the geometric series one, plus p to the minus s, plus p to the minus two s, and so on, adds up to one over one minus p to the minus s."
+ },
+ {
+  "scene": "euler",
+  "text": "Multiply these series together, over every prime. Each whole number appears exactly once, because every number factors into primes in only one way."
+ },
+ {
+  "scene": "euler",
+  "text": "So a sum over all whole numbers equals a product over all primes. This identity is the bridge between zeta and the primes."
+ },
+ {
+  "scene": "complex",
+  "text": "Riemann then let s be a complex number: sigma, plus i times t."
+ },
+ {
+  "scene": "complex",
+  "text": "From the Maclaurin series for e to the x, sine, and cosine, you can derive Euler's formula. E to the i theta equals cosine theta, plus i sine theta."
+ },
+ {
+  "scene": "complex",
+  "text": "So each term, n to the minus s, is an arrow in polar form. Its length is n to the minus sigma. Its angle is minus t, times the natural log of n."
+ },
+ {
+  "scene": "complex",
+  "text": "Adding the series means placing the arrows tip to tail. When sigma is greater than one, the path spirals in toward a single point: the value of zeta."
+ },
+ {
+  "scene": "strip",
+  "text": "When sigma is one or less, the series diverges. But the function does not have to end there."
+ },
+ {
+  "scene": "strip",
+  "text": "Recall the geometric series: one, plus x, plus x squared, and so on. It converges only between minus one and one. Yet the function it equals, one over one minus x, makes sense everywhere except x equals one."
+ },
+ {
+  "scene": "strip",
+  "text": "Zeta extends in the same spirit, to every complex number except s equals one. This is called analytic continuation."
+ },
+ {
+  "scene": "strip",
+  "text": "The extended function is zero at minus two, minus four, minus six, and so on. These are the trivial zeros."
+ },
+ {
+  "scene": "strip",
+  "text": "Every other zero lies inside the critical strip, where sigma is between zero and one."
+ },
+ {
+  "scene": "strip",
+  "text": "The Riemann Hypothesis states that all of them lie on a single line: sigma equals one half."
+ },
+ {
+  "scene": "strip",
+  "text": "More than ten trillion zeros have been checked, and every one lies on that line. No proof is known."
+ },
+ {
+  "scene": "zline",
+  "text": "Turn the critical line on its side, so that its height, t, runs from left to right."
+ },
+ {
+  "scene": "zline",
+  "text": "Along this line, zeta can be rotated into a real valued wave, called the Riemann Siegel Z function. Its size always matches the size of zeta."
+ },
+ {
+  "scene": "zline",
+  "text": "Wherever Z crosses from positive to negative, or back again, the Intermediate Value Theorem, from Unit One, guarantees a zero in between."
+ },
+ {
+  "scene": "zline",
+  "text": "Computer checks of the hypothesis begin exactly this way: count the sign changes, then confirm that no zeros are missing."
+ },
+ {
+  "scene": "orchestra",
+  "text": "Now, we give each zero a voice."
+ },
+ {
+  "scene": "orchestra",
+  "text": "Every zero becomes an instrument, placed at its height, and tuned to ten times that height, in hertz. The first zero, at fourteen point one three, sounds at one hundred forty-one hertz."
+ },
+ {
+  "scene": "orchestra",
+  "text": "A wave travels from left to right. When it reaches a zero, that instrument lights up, and every instrument already lit strikes with it, together, at the same volume.",
+  "cue": "sweep"
+ },
+ {
+  "scene": "orchestra",
+  "text": "Listen to the spacing. The zeros seem to keep their distance from one another. Very close pairs are rare.",
+  "cue": "mid"
+ },
+ {
+  "scene": "orchestra",
+  "text": "Thirteen zeros below height sixty. Thirteen instruments, in a rhythm set by the zeros themselves.",
+  "cue": "after"
+ },
+ {
+  "scene": "balance",
+  "text": "Why should every instrument share one volume? The answer is Riemann's explicit formula."
+ },
+ {
+  "scene": "balance",
+  "text": "It writes a weighted prime staircase, called psi of x, as a smooth trend, minus one wave for every zero."
+ },
+ {
+  "scene": "balance",
+  "text": "By the rules of exponents, x to the power one half plus i gamma becomes the square root of x, times e to the i gamma natural log of x."
+ },
+ {
+  "scene": "balance",
+  "text": "So each zero adds a cosine wave in the natural log of x. Its frequency is gamma, the zero's height. Its size grows like x to the real part of the zero."
+ },
+ {
+  "scene": "balance",
+  "text": "On the critical line, that real part is one half, for every zero. Every wave swells at exactly the same rate. That shared rate is the volume we gave each instrument."
+ },
+ {
+  "scene": "balance",
+  "text": "If a single zero sat off the line, at three quarters, its wave would grow like x to the three quarters. It would drown out the others, and the primes would stray further from their expected count."
+ },
+ {
+  "scene": "balance",
+  "text": "The hypothesis is a statement of balance. No instrument is louder than the rest."
+ },
+ {
+  "scene": "primesync",
+  "text": "Now, let the instruments play together."
+ },
+ {
+  "scene": "primesync",
+  "text": "One wave alone is a gentle curve. Add ten, a hundred, a thousand, and their sum sharpens into a staircase."
+ },
+ {
+  "scene": "primesync",
+  "text": "At each prime, and at each power of a prime, the waves line up in phase, and the staircase jumps."
+ },
+ {
+  "scene": "primesync",
+  "text": "The primes are the moments when the whole orchestra agrees.",
+  "cue": "primesweep"
+ },
+ {
+  "scene": "close",
+  "text": "Series and convergence. Euler's formula. Polar arrows. The Intermediate Value Theorem. Logarithms, and integrals."
+ },
+ {
+  "scene": "close",
+  "text": "The tools of Calculus BC carry us to the edge of one of the great open problems in mathematics."
+ },
+ {
+  "scene": "close",
+  "text": "What you heard is a translation into sound, not a proof. Whether the balance holds forever is still unknown."
+ }
+]

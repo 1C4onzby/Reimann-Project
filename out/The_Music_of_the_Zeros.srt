@@ -1,0 +1,488 @@
+1
+00:00:03,600 --> 00:00:05,111
+In eighteen fifty-nine,
+
+2
+00:00:05,151 --> 00:00:09,562
+Bernhard Riemann wrote a short
+paper about counting prime numbers.
+
+3
+00:00:10,252 --> 00:00:14,868
+In it, he made a guess that is still
+unproven. Today, we are going to hear it.
+
+4
+00:00:17,308 --> 00:00:23,447
+Prime numbers are the whole numbers greater than
+one whose only divisors are one and themselves.
+
+5
+00:00:24,137 --> 00:00:27,392
+Count them, and you get a
+staircase called pi of x,
+
+6
+00:00:27,432 --> 00:00:29,782
+which climbs one step at every prime.
+
+7
+00:00:30,472 --> 00:00:35,750
+The steps arrive irregularly. Yet from
+far away, the staircase looks smooth,
+
+8
+00:00:35,790 --> 00:00:40,089
+and Gauss guessed that it follows
+x over the natural log of x.
+
+9
+00:00:40,779 --> 00:00:44,282
+A sharper guess is an
+integral. Near a number t,
+
+10
+00:00:44,322 --> 00:00:48,269
+roughly one number in every
+natural log of t is prime.
+
+11
+00:00:48,309 --> 00:00:53,805
+So we accumulate that density, and
+integrate one over the natural log of t,
+
+12
+00:00:53,845 --> 00:00:55,060
+from two up to x.
+
+13
+00:00:55,750 --> 00:00:59,262
+Below one million, there
+are seventy-eight thousand,
+
+14
+00:00:59,302 --> 00:01:04,657
+four hundred ninety-eight primes. The
+first guess misses by about six thousand.
+
+15
+00:01:04,697 --> 00:01:08,277
+The integral misses by only
+about one hundred thirty.
+
+16
+00:01:08,967 --> 00:01:14,981
+The Riemann Hypothesis is a precise statement
+about how small that miss must always be.
+
+17
+00:01:17,421 --> 00:01:23,261
+Riemann's tool is an infinite series, the
+kind you study in Unit Ten of Calculus BC.
+
+18
+00:01:23,951 --> 00:01:29,825
+The zeta function adds one over n to the
+power s, for every positive whole number n.
+
+19
+00:01:30,515 --> 00:01:34,652
+By the p-series test, it converges
+when s is greater than one.
+
+20
+00:01:35,342 --> 00:01:39,928
+At s equals two, the partial sums
+settle on pi squared over six.
+
+21
+00:01:40,618 --> 00:01:45,325
+At s equals one, it becomes the
+harmonic series. It never settles.
+
+22
+00:01:45,365 --> 00:01:49,352
+It grows like the natural log
+of n, slowly, and forever.
+
+23
+00:01:50,042 --> 00:01:52,733
+The integral test explains both cases,
+
+24
+00:01:52,773 --> 00:01:57,836
+by comparing the sum with the improper
+integral of one over x to the s.
+
+25
+00:02:00,276 --> 00:02:03,284
+Euler found where the primes
+hide inside this series.
+
+26
+00:02:03,974 --> 00:02:09,166
+For each prime p, the geometric
+series one, plus p to the minus s,
+
+27
+00:02:09,206 --> 00:02:12,100
+plus p to the minus two s, and so on,
+
+28
+00:02:12,140 --> 00:02:15,826
+adds up to one over one
+minus p to the minus s.
+
+29
+00:02:16,516 --> 00:02:19,993
+Multiply these series
+together, over every prime.
+
+30
+00:02:20,033 --> 00:02:22,793
+Each whole number appears exactly once,
+
+31
+00:02:22,833 --> 00:02:26,884
+because every number factors
+into primes in only one way.
+
+32
+00:02:27,574 --> 00:02:32,320
+So a sum over all whole numbers
+equals a product over all primes.
+
+33
+00:02:32,360 --> 00:02:36,444
+This identity is the bridge
+between zeta and the primes.
+
+34
+00:02:38,884 --> 00:02:43,350
+Riemann then let s be a complex
+number: sigma, plus i times t.
+
+35
+00:02:44,040 --> 00:02:48,608
+From the Maclaurin series for
+e to the x, sine, and cosine,
+
+36
+00:02:48,648 --> 00:02:53,997
+you can derive Euler's formula. E
+to the i theta equals cosine theta,
+
+37
+00:02:54,037 --> 00:02:55,403
+plus i sine theta.
+
+38
+00:02:56,093 --> 00:03:00,757
+So each term, n to the minus
+s, is an arrow in polar form.
+
+39
+00:03:00,797 --> 00:03:05,379
+Its length is n to the minus
+sigma. Its angle is minus t,
+
+40
+00:03:05,419 --> 00:03:07,569
+times the natural log of n.
+
+41
+00:03:08,259 --> 00:03:12,063
+Adding the series means
+placing the arrows tip to tail.
+
+42
+00:03:12,103 --> 00:03:17,236
+When sigma is greater than one, the
+path spirals in toward a single point:
+
+43
+00:03:17,276 --> 00:03:18,494
+the value of zeta.
+
+44
+00:03:20,934 --> 00:03:23,901
+When sigma is one or
+less, the series diverges.
+
+45
+00:03:23,941 --> 00:03:26,717
+But the function does
+not have to end there.
+
+46
+00:03:27,407 --> 00:03:32,707
+Recall the geometric series: one,
+plus x, plus x squared, and so on.
+
+47
+00:03:32,747 --> 00:03:38,362
+It converges only between minus one
+and one. Yet the function it equals,
+
+48
+00:03:38,402 --> 00:03:43,467
+one over one minus x, makes sense
+everywhere except x equals one.
+
+49
+00:03:44,157 --> 00:03:50,039
+Zeta extends in the same spirit, to
+every complex number except s equals one.
+
+50
+00:03:50,079 --> 00:03:52,884
+This is called analytic continuation.
+
+51
+00:03:53,574 --> 00:03:59,322
+The extended function is zero at minus
+two, minus four, minus six, and so on.
+
+52
+00:03:59,362 --> 00:04:01,427
+These are the trivial zeros.
+
+53
+00:04:02,117 --> 00:04:05,475
+Every other zero lies
+inside the critical strip,
+
+54
+00:04:05,515 --> 00:04:08,023
+where sigma is between zero and one.
+
+55
+00:04:08,713 --> 00:04:13,326
+The Riemann Hypothesis states that
+all of them lie on a single line:
+
+56
+00:04:13,366 --> 00:04:14,831
+sigma equals one half.
+
+57
+00:04:15,521 --> 00:04:20,754
+More than ten trillion zeros have been
+checked, and every one lies on that line.
+
+58
+00:04:20,794 --> 00:04:21,940
+No proof is known.
+
+59
+00:04:24,380 --> 00:04:29,317
+Turn the critical line on its side, so that
+its height, t, runs from left to right.
+
+60
+00:04:30,007 --> 00:04:34,639
+Along this line, zeta can be
+rotated into a real valued wave,
+
+61
+00:04:34,679 --> 00:04:40,690
+called the Riemann Siegel Z function.
+Its size always matches the size of zeta.
+
+62
+00:04:41,380 --> 00:04:45,740
+Wherever Z crosses from positive
+to negative, or back again,
+
+63
+00:04:45,780 --> 00:04:51,313
+the Intermediate Value Theorem, from
+Unit One, guarantees a zero in between.
+
+64
+00:04:52,003 --> 00:04:57,702
+Computer checks of the hypothesis begin
+exactly this way: count the sign changes,
+
+65
+00:04:57,742 --> 00:05:00,465
+then confirm that no zeros are missing.
+
+66
+00:05:02,905 --> 00:05:04,853
+Now, we give each zero a voice.
+
+67
+00:05:05,543 --> 00:05:09,210
+Every zero becomes an
+instrument, placed at its height,
+
+68
+00:05:09,250 --> 00:05:13,321
+and tuned to ten times that
+height, in hertz. The first zero,
+
+69
+00:05:13,361 --> 00:05:17,837
+at fourteen point one three, sounds
+at one hundred forty-one hertz.
+
+70
+00:05:18,527 --> 00:05:22,182
+A wave travels from left to
+right. When it reaches a zero,
+
+71
+00:05:22,222 --> 00:05:27,024
+that instrument lights up, and every
+instrument already lit strikes with it,
+
+72
+00:05:27,064 --> 00:05:28,871
+together, at the same volume.
+
+73
+00:05:45,978 --> 00:05:50,909
+Listen to the spacing. The zeros seem
+to keep their distance from one another.
+
+74
+00:05:50,949 --> 00:05:52,566
+Very close pairs are rare.
+
+75
+00:06:10,632 --> 00:06:14,709
+Thirteen zeros below height
+sixty. Thirteen instruments,
+
+76
+00:06:14,749 --> 00:06:17,649
+in a rhythm set by the zeros themselves.
+
+77
+00:06:20,089 --> 00:06:22,917
+Why should every instrument
+share one volume?
+
+78
+00:06:22,957 --> 00:06:25,531
+The answer is Riemann's explicit formula.
+
+79
+00:06:26,221 --> 00:06:31,591
+It writes a weighted prime staircase,
+called psi of x, as a smooth trend,
+
+80
+00:06:31,631 --> 00:06:33,814
+minus one wave for every zero.
+
+81
+00:06:34,504 --> 00:06:36,430
+By the rules of exponents,
+
+82
+00:06:36,470 --> 00:06:41,420
+x to the power one half plus i
+gamma becomes the square root of x,
+
+83
+00:06:41,460 --> 00:06:44,444
+times e to the i gamma natural log of x.
+
+84
+00:06:45,134 --> 00:06:51,299
+So each zero adds a cosine wave in the
+natural log of x. Its frequency is gamma,
+
+85
+00:06:51,339 --> 00:06:56,729
+the zero's height. Its size grows
+like x to the real part of the zero.
+
+86
+00:06:57,419 --> 00:07:01,901
+On the critical line, that real
+part is one half, for every zero.
+
+87
+00:07:01,941 --> 00:07:04,893
+Every wave swells at
+exactly the same rate.
+
+88
+00:07:04,933 --> 00:07:08,719
+That shared rate is the volume
+we gave each instrument.
+
+89
+00:07:09,409 --> 00:07:12,869
+If a single zero sat off
+the line, at three quarters,
+
+90
+00:07:12,909 --> 00:07:18,152
+its wave would grow like x to the three
+quarters. It would drown out the others,
+
+91
+00:07:18,192 --> 00:07:22,180
+and the primes would stray
+further from their expected count.
+
+92
+00:07:22,870 --> 00:07:28,172
+The hypothesis is a statement of balance.
+No instrument is louder than the rest.
+
+93
+00:07:30,612 --> 00:07:32,737
+Now, let the instruments play together.
+
+94
+00:07:33,427 --> 00:07:38,237
+One wave alone is a gentle curve.
+Add ten, a hundred, a thousand,
+
+95
+00:07:38,277 --> 00:07:41,221
+and their sum sharpens into a staircase.
+
+96
+00:07:41,911 --> 00:07:46,646
+At each prime, and at each power of
+a prime, the waves line up in phase,
+
+97
+00:07:46,686 --> 00:07:48,238
+and the staircase jumps.
+
+98
+00:07:48,928 --> 00:07:52,316
+The primes are the moments when
+the whole orchestra agrees.
+
+99
+00:08:13,611 --> 00:08:17,769
+Series and convergence.
+Euler's formula. Polar arrows.
+
+100
+00:08:17,809 --> 00:08:22,278
+The Intermediate Value Theorem.
+Logarithms, and integrals.
+
+101
+00:08:22,968 --> 00:08:29,943
+The tools of Calculus BC carry us to the edge of
+one of the great open problems in mathematics.
+
+102
+00:08:30,633 --> 00:08:34,252
+What you heard is a translation
+into sound, not a proof.
+
+103
+00:08:34,292 --> 00:08:37,585
+Whether the balance holds
+forever is still unknown.

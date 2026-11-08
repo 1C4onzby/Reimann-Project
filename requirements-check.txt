@@ -1,0 +1,2 @@
+# optional: transcribe the narration to check every word (src/audio/asr_check.py)
+sherpa-onnx

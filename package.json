@@ -1,0 +1,16 @@
+{
+  "name": "reimann-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Music of the Zeros: the Riemann Hypothesis as an orchestra, an AP Calculus BC film.",
+  "scripts": {
+    "stills": "node src/render/render.mjs stills",
+    "render": "node src/render/render.mjs video 4"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.1.0",
+    "@fontsource/inter-tight": "5.1.0",
+    "@fontsource/jetbrains-mono": "5.1.0",
+    "mathjax-full": "3.2.2"
+  }
+}
